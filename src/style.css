@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, sans-serif;
+}
+
+#content{
+    height: 100%; 
+    margin: 0;
+}
+
+#container{
+    min-height: 100%; 
+    display: grid;
+    gap: 1vw;
+    grid-template-rows: 1fr 10fr;
+}
+
+.navbar{
+    display: flex;
+    background-color: antiquewhite;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar ul{
+    list-style-type: none;
+    gap: 10vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.main{
+    background-color: brown;
+    height:80vh;
+    width: 40vw;
+    justify-self: center;
+}
