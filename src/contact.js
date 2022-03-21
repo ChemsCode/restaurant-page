@@ -8,7 +8,7 @@ function contactComp() {
     homeList.forEach((item) => {
         let li = document.createElement("div");
         li.innerText = item;
-        // li.classList.add(`coms`);
+        li.setAttribute('id',`${item}`);
         main.appendChild(li)
     });
 
