@@ -12,3 +12,22 @@ function component() {
 }
  
 document.getElementById("content").appendChild(component());
+document.getElementById("container").appendChild(homeComp());
+
+document.getElementById("Home").addEventListener("click", () => {
+    console.log("in home")
+    document.getElementById("container").lastChild.remove();
+    document.getElementById("container").appendChild(homeComp());
+});
+
+document.getElementById("Menu").addEventListener("click", () => {
+    console.log("in menu")
+    document.getElementById("container").lastChild.remove();
+    document.getElementById("container").appendChild(menuComp());
+});
+
+document.getElementById("Contact").addEventListener("click", () => {
+    console.log("in contact")
+    document.getElementById("container").lastChild.remove();
+    document.getElementById("container").appendChild(contactComp());
+});

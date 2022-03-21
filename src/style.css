@@ -37,10 +37,25 @@ body{
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+.navbar ul button{
+    background: rgba(248, 0, 0, 0.2); /* Green background with 0 opacity */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10%;
+}
+
 
 .main{
-    background-color: brown;
+    background-color: antiquewhite;
     height:80vh;
     width: 40vw;
     justify-self: center;
+    border-radius: 5%;
 }

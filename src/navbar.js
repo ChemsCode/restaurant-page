@@ -7,8 +7,11 @@ function navbarComp() {
 
 
     data.forEach((item) => {
+        let liButton = document.createElement("button")
+        liButton.setAttribute('id',`${item}`);
+        liButton.innerHTML = item;
         let li = document.createElement("li");
-        li.innerText = item;
+        li.appendChild(liButton);
         list.appendChild(li);
     });
     navbar.appendChild(list); 
