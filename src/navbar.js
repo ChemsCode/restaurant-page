@@ -7,6 +7,9 @@ function navbarComp() {
 
 
     data.forEach((item) => {
+        // let restaurantTitle = document.createElement("h1");
+        // restaurantTitle.setAttribute('id',`restaurant-name`);
+        // restaurantTitle.innerHTML = "Wahab's Kebab";
         let liButton = document.createElement("button")
         liButton.setAttribute('id',`${item}`);
         liButton.innerHTML = item;

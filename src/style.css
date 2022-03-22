@@ -58,4 +58,20 @@ body{
     width: 40vw;
     justify-self: center;
     border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#Description img{
+    height: 40vh;
+    width: auto;
+    border-radius: 40%;
+}
+
+.main img{
+    height: 10vw;
+    width: auto;
+    border-radius: 1%;
 }
